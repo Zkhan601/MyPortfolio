@@ -9,6 +9,18 @@ import { Experience, SingleExperiencePropsTypes } from "../../../types";
 
 const experiences: Experience[] = [
     {
+        title: "Software Development Fellow",
+        client: "CUNY Tech Prep (CTP)",
+        tenure: "August 2022 - June 2023",
+        logo: starbucksLogo,
+        responsibilities: [
+            "Learn in-demand technologies like React, Node + Express, and PostgreSQL.",
+            "Learn best practices for design, implementation, and deployment such as MVC, agile & Scrum with Trello and Slack, test-driven development, and CI/CD.",
+            "Participated in projects, learning how to navigate group work and issues.",
+        ],
+        description: `Worked with peers to manage different projects and learned new technologies. `,
+    },
+    {
         title: "Engineering Internship Program",
         client: "NYC Department of Design and Construction (DDC)",
         tenure: "July 2019 - August 2019",
@@ -17,7 +29,7 @@ const experiences: Experience[] = [
             "Managing projects to enhance public safety around New York City.",
             "Validated and studied blueprints.",
             "Participated in project management meetings with Department of Transportation, Department of Buildings AECOM, and Department of Environmental Protection.",
-            "Focused on expanding accesibitly for the handicapped around New York City."
+            "Focused on expanding accessibitly for the handicapped around New York City."
         ],
         description: `Worked with the engineer-incharge to manage different project sites such as St.Patrick's cathedral and Grand Central Station.  `,
     },
