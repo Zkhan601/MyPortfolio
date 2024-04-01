@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import starbucksLogo from "../../../assets/jobs/starbucks.png";
 import nastechLogo from "../../../assets/jobs/nastech.png";
 import technoLogo from "../../../assets/jobs/techno.png";
-import ctpLogo from "../../../jobs/ctp-logo-square.png"
+import ctpLogo from "../../../assets/jobs/ctp.png"
 import { Experience, SingleExperiencePropsTypes } from "../../../types";
 
 const experiences: Experience[] = [
