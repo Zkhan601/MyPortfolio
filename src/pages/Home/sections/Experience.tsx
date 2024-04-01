@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import starbucksLogo from "../../../assets/jobs/starbucks.png";
 import nastechLogo from "../../../assets/jobs/nastech.png";
 import technoLogo from "../../../assets/jobs/techno.png";
+import ctpLogo from "../../../jobs/ctp-logo-square.png"
 import { Experience, SingleExperiencePropsTypes } from "../../../types";
 
 const experiences: Experience[] = [
@@ -12,7 +13,7 @@ const experiences: Experience[] = [
         title: "Software Development Fellow",
         client: "CUNY Tech Prep (CTP)",
         tenure: "August 2022 - June 2023",
-        logo: starbucksLogo,
+        logo: ctpLogo,
         responsibilities: [
             "Learn in-demand technologies like React, Node + Express, and PostgreSQL.",
             "Learn best practices for design, implementation, and deployment such as MVC, agile & Scrum with Trello and Slack, test-driven development, and CI/CD.",
